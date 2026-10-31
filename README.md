@@ -1,64 +1,37 @@
+# 🛡️ DependencyGuard AI
+### Intelligent Software Dependency Security & Vulnerability Analysis
 
-# DependencyGuard
+<p align="center">
+  <img src="https://img.shields.io/badge/SECURITY-DEPENDENCY%20GUARD-00C853?style=for-the-badge&logo=shield&logoColor=white" />
+  <img src="https://img.shields.io/badge/PYTHON-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-SECURITY%20INTELLIGENCE-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-orange?style=for-the-badge" />
+</p>
 
-A Python-based software dependency vulnerability scanner powered by the OSV vulnerability database.
+<p align="center">
+  **Scan Dependencies. Identify Risks. Build Secure Software.**
+</p>
 
-## Features
+---
 
-- Scan pinned Python dependencies
-- Identify known security advisories
-- Deduplicate vulnerability records
-- Generate JSON security reports
-- Handle network errors
-- Run automated unit tests
+## 🌐 Project Overview
 
-## Tech Stack
+**DependencyGuard AI** is a cybersecurity-focused project designed to help developers identify potential security vulnerabilities in third-party software dependencies.
 
-- Python 3.13
-- Requests
-- Packaging
-- OSV API
-- unittest
+Modern software applications depend on external packages, libraries, and frameworks. Vulnerable dependencies can expose applications to security threats and increase software supply chain risks.
 
-## Setup
+DependencyGuard AI aims to analyze dependency information, identify known vulnerabilities, and provide actionable security insights through an organized scanning workflow.
 
-Clone the repository, then run:
+> 🔍 Intelligent dependency analysis for a safer software ecosystem.
 
-```powershell
-py -3.13 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-```
+---
 
-## Run the Scanner
+## ⚡ Core Features
 
-```powershell
-.\.venv\Scripts\python.exe main.py
-```
-
-The scan report is saved to `security-report.json`.
-
-## Run Tests
-
-```powershell
-.\.venv\Scripts\python.exe -m unittest -v test_scanner.py
-```
-
-## Limitations
-
-- Scans exact package versions specified with `==`.
-- Uses the OSV vulnerability database.
-- Requires an internet connection for live scans.
-- Does not yet resolve transitive dependencies.
-- Severity scores are not yet retrieved from official advisories.
-
-## Future Improvements
-
-- CVSS severity integration
-- Dependency graph visualization
-- GitHub Actions CI
-- Transitive dependency analysis
-- HTML security reports
-
-## Disclaimer
-
-This tool assists with dependency security analysis. Verify findings against official advisories before making remediation decisions.
+| Feature | Description |
+|---|---|
+| 📦 Dependency Scanning | Analyze software packages and dependency versions. |
+| 🛡️ Vulnerability Detection | Identify known security vulnerabilities. |
+| ⚠️ Risk Assessment | Highlight dependencies that require attention. |
+| 🔍 Package Intelligence | Examine package information and security indicators. |
+| 📊
